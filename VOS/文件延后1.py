@@ -1,5 +1,3 @@
-# 创建人 :王壹淋
-# 创建时间:2024/8/30;10:15
 import cv2
 import torch
 import torch.nn as nn
