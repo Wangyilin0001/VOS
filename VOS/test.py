@@ -5,7 +5,7 @@ from models import create_model
 from util.visualizer import save_images
 from util import html
 
-# python E:\CDGAN\test.py --which_epoch 20
+# python test.py --which_epoch 200
 
 if __name__ == '__main__':
     opt = TestOptions().parse()
