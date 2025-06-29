@@ -7,13 +7,19 @@ VOS：Towards Thermal Infrared Image Colorization via View Overlap Strategy
   * dominate
   * visdom
 # Trian  
-`python train.py --dataroot [dataset root] --name [experiment_name] --phase train --which_epoch latest`  
+``` C
+python train.py --dataroot [dataset root] --name [experiment_name] --phase train --which_epoch latest
+```  
 # Test
-`python test.py --dataroot [dataset root] --name [experiment_name] --phase test --which_epoch latest`  
+``` C
+python test.py --dataroot [dataset root] --name [experiment_name] --phase test --which_epoch latest
+```  
 # Colorization results  
 ## FLIR dataset  
-[FLIR](https://github.com/Wangyilin0001/VOS/blob/main/VOS/img/FLIR.png)
+![FLIR](https://github.com/Wangyilin0001/VOS/blob/main/VOS/img/FLIR.png)
 ## KAITS dataset  
-[KAIST](https://github.com/Wangyilin0001/VOS/blob/main/VOS/img/KAIST.png)
+![KAIST](https://github.com/Wangyilin0001/VOS/blob/main/VOS/img/KAIST.png)
+# Comparison methods  
+ [pix2pix](https://github.com/phillipi/pix2pix),[TICCGAN](https://github.com/Kuangxd/TICCGAN),[MUGAN](https://github.com/HangyingLiao/MUGAN),[lkat-gan](https://github.com/jinxinhuo/LKAT-GAN-for-Infrared-Image-Colorization) and [FRAGAN](https://github.com/cyanymore/FRAGAN?tab=readme-ov-file#colorization-results)
 # Acknowledgments
-This code heavily borrowes from [pix2pix](https://github.com/phillipi/pix2pix),[TICCGAN](https://github.com/Kuangxd/TICCGAN),[MUGAN](https://github.com/HangyingLiao/MUGAN),[lkat-gan](https://github.com/jinxinhuo/LKAT-GAN-for-Infrared-Image-Colorization) and [FRAGAN](https://github.com/cyanymore/FRAGAN?tab=readme-ov-file#colorization-results).
+This code heavily borrowes from [pix2pix](https://github.com/phillipi/pix2pix).
