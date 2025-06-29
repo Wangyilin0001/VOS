@@ -16,4 +16,4 @@ VOS：Towards Thermal Infrared Image Colorization via View Overlap Strategy
 ## KAITS dataset  
 
 # Acknowledgments
-This code heavily borrowes from [pix2pix](https://github.com/phillipi/pix2pix),[TICCGAN](https://github.com/Kuangxd/TICCGAN),[MUGAN](https://github.com/HangyingLiao/MUGAN),[MUGAN](https://github.com/HangyingLiao/MUGAN)
+This code heavily borrowes from [pix2pix](https://github.com/phillipi/pix2pix),[TICCGAN](https://github.com/Kuangxd/TICCGAN),[MUGAN](https://github.com/HangyingLiao/MUGAN),[lkat-gan](https://github.com/jinxinhuo/LKAT-GAN-for-Infrared-Image-Colorization) and [FRAGAN](https://github.com/cyanymore/FRAGAN?tab=readme-ov-file#colorization-results).
