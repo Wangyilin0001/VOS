@@ -151,7 +151,6 @@ if __name__ == '__main__':
                                           psnr_sum_b/epoch_iter, ssim_sum_b/epoch_iter)])
                     f3.close()
 
-            # 打印每一小轮的训练时间进行观察
             print('epoch:%d \t End of epoch %d / %d \t Time Taken: %.3f sec\t  Time Total: %.3f sec' %
                   (epoch, dataset_size, epoch_iter, (time.time() - iter_start_time) / opt.batchSize,
                    (time.time() - epoch_start_time) / opt.batchSize))

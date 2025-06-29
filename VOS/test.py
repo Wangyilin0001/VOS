@@ -5,7 +5,7 @@ from models import create_model
 from util.visualizer import save_images
 from util import html
 
-# python E:\CDGAN\test.py --which_epoch 20
+# python test.py --which_epoch 200
 
 if __name__ == '__main__':
     opt = TestOptions().parse()
@@ -16,7 +16,7 @@ if __name__ == '__main__':
     opt.display_id = -1  # no visdom display
 
     line = 0
-    epoch = 20
+    epoch = 200
 
     data_loader,l1,l2,best_ls_x,d_ls = CreateDataLoader(opt,line,epoch,two=2)
     dataset = data_loader.load_data()
