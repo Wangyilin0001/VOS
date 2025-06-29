@@ -16,7 +16,7 @@ if __name__ == '__main__':
     opt.display_id = -1  # no visdom display
 
     line = 0
-    epoch = 20
+    epoch = 200
 
     data_loader,l1,l2,best_ls_x,d_ls = CreateDataLoader(opt,line,epoch,two=2)
     dataset = data_loader.load_data()
